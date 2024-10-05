@@ -1,6 +1,6 @@
 function SideBar(props) {
     const {handleToggleModal, data} = props;
-    console.log('In SideBar:', data)
+    // console.log('In SideBar:', data)
     return(
         <>
             <div className="sidebar">
