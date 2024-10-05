@@ -5,8 +5,9 @@ function SideBar(props) {
         <>
             <div className="sidebar">
                 <div 
-                    className="bgOverlay">
+                    className="bgOverlay"
                     onClick={handleToggleModal}
+                >
                 </div>
                 <div className="sidebarContents">
                     <h2>{data?.title}</h2>
